@@ -2,11 +2,17 @@
 def caffeine():
     caffeine_mg = float(input())
 
-    caffeineLevel_6 = caffeine_mg / 2
+    caffeineLevel_6 = caffeine_mg / 2 
     caffeineLevel_12 = caffeineLevel_6 / 2
     caffeineLevel_24 = caffeineLevel_12 / 2
     
-    print(caffeineLevel_6, caffeineLevel_12, caffeineLevel_24)
-    
+    # mg = 'mg'
+    # print(caffeineLevel_6, caffeineLevel_12, caffeineLevel_24)
+    # print(f'{caffeineLevel_6:.2f}' , f'{caffeineLevel_12:.2f}' , f'{caffeineLevel_24:.2f}')
+
+    print('After 6 hours: {a} mg'.format(a = caffeineLevel_6))
+    print('After 12 hours: {a} mg'.format(a = caffeineLevel_12))
+    print('After 24 hours: {a} mg'.format(a = caffeineLevel_24))
+   
 if __name__ == "__main__":
     caffeine()
