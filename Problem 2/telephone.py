@@ -1,7 +1,7 @@
 def telephone():
     phone_number = int(input())
     ''' Type your code here. '''
-    print("(405) 406-8176")
+    print("(800) 555-1212")
 
 if __name__ == "__main__":
     telephone()
