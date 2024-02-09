@@ -1,4 +1,5 @@
-
+"""Will Morris
+Friday Afternoon Lab"""
 def real_estate():
     
     current_price = int(input())
@@ -11,7 +12,7 @@ def real_estate():
 
     print("This house is ${a}.".format (a = current_price)\
         , "The change is ${b} since last month.".format (b = change_price) \
-        , "The estimated monthly mortgage is ${c}.".format (c= mortage))
+        , "The estimated monthly mortgage is ${c}.".format(c= mortage))
    
 if __name__ == "__main__":
     real_estate()
