@@ -4,7 +4,7 @@ def caffeine():
 
     caffeineLevel_6 = caffeine_mg / 2 
     caffeineLevel_12 = caffeineLevel_6 / 2
-    caffeineLevel_24 = caffeineLevel_12 / 2
+    caffeineLevel_24 = caffeineLevel_12 / 4
     
     # mg = 'mg'
     # print(caffeineLevel_6, caffeineLevel_12, caffeineLevel_24)
