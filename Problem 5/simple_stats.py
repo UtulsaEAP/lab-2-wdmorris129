@@ -9,7 +9,9 @@ def simple_stats():
     num_product = num1 * num2 * num3 * num4
     num_avg = (num1 + num2 + num3 + num4) / 4 
 
-    print(float(num_product * 10**0) / 10**0)
+    print("{:.0f}".format(num_product), "{:.0f}".format(num_avg))
+    print("{:.3f}".format(num_product), "{:.3f}".format(num_avg))
+
 
 
 
