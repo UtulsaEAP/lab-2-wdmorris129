@@ -1,4 +1,5 @@
-import math
+"""Will Morris
+    Friday Afternoon Lab"""
 
 def simple_stats():
     num1 = float(input())
