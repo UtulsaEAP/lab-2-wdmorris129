@@ -1,3 +1,6 @@
+"""Will Morris
+Friday Afternoon Lab"""
+
 def right_arrow():
     base_char = input()
     head_char = input()
