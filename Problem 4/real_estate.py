@@ -10,8 +10,8 @@ def real_estate():
 
     # print(f'{current_price:.2f}', f'{change_price:.2f}', f'{mortage:.2f}')
 
-    print("This house is ${:.2f}.".format (current_price)\
-        , "The change is ${:.2f} since last month.".format (change_price) \
+    print("This house is ${a}.".format (a = current_price)\
+        , "The change is ${b} since last month.".format (b = change_price) \
         , "The estimated monthly mortgage is ${:.2f}.".format(mortage))
    
 if __name__ == "__main__":
